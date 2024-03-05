@@ -7,12 +7,10 @@ def caesar_encrypt(word, shiftInterval):
     swap_index = 0
     # Make it so that when letter is h then it shifts 3 interval to k and then this cycle repeats to all the letters shifting other 3 words aka h --> k
     for i in range(len(word)):
-        # for j in range(len(alphabet)):
-        for j in range(min(len(alphabet), len(alphabet))):
+        for j in range(len(alphabet)):
             if word[i] == alphabet[j]:
                 swap_index = j + int(shift_interval)
                 new_text += alphabet[swap_index]
-                # print(j, word[i], swap_index, alphabet[swap_index])
     return new_text
 
 word = input("Enter word: ")
