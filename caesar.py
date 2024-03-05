@@ -1,5 +1,5 @@
 # Johnny Huang (340893478)
-def caesar_encrypt(word, shiftInterval):
+def caesar_encrypt(word, shift_interval):
     alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
     new_text = ""
